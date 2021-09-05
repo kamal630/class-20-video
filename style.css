@@ -1,0 +1,270 @@
+.headbanner{
+    background:url(img/header.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+}
+header .logo{
+    color: white;
+    font-size: 19px;
+    letter-spacing: 10px;
+    margin-top: 10px;
+}
+header nav{
+    margin-left: 230px;
+}
+header nav ul {
+    margin-bottom: 0;
+}
+header nav ul li{
+    display: inline-block;
+    position: relative;
+}
+header nav ul li  a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    transition: .4s;
+}
+.active,
+ header nav ul li:hover >a{
+    color:#9AC54A;
+}
+
+header nav ul li ul{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 200px;
+    top: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    background: rgba(0, 0, 0, 0.185);
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: .5s;
+}
+header nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+   
+}
+
+.banner-content{
+    text-align: center;
+    color: white;
+    margin-top: 156px;
+}
+.banner-content h1{
+    font-size: 100px;
+}
+.banner-content p{
+    font-size: 18px;
+    line-height: 29px;
+}
+.banner-content a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%) ;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 28px;
+    display: inline-block;
+    transition: .5s;
+}
+.banner-content a:hover{
+
+    background: linear-gradient(to right, #153d57 0%, #26a0da  51%, #0429105e  100%) ;
+    transition: .5s;
+   
+}
+
+
+.content{
+    background: #9ACD32;
+    /* padding: 114px 0; */
+}
+.content span{
+    font-size: 45px;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.content p{
+    font-size: 16px;
+     margin: auto;
+    font-weight: 400;
+}
+
+
+
+
+.song{
+    padding: 100px;
+}
+.song .mic{
+    text-align: right;
+    margin-right: 18px;
+}
+.song .mic img{
+    width: 559px;
+    border-radius: 50%;
+}
+.song .para{
+    margin-top: 54px;
+}
+.song .para h2{
+    font-size: 33px;
+}
+.song .para p{
+    font-size: 21px;
+    color: #0000009c;
+}
+.song .para a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background: #9ACD32;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 28px;
+    display: inline-block;
+    transition: .5s;
+}
+.song .para a:hover{
+    background: #32CD32;
+
+}
+
+
+
+
+
+.quality{
+    padding: 100px;
+    background: #000;
+    color: white;
+}
+.quality .mic{
+    text-align: right;
+   
+    margin-right: 18px;
+}
+.quality .mic img{
+    width: 559px;
+    border-radius: 50%;
+}
+.quality .para{
+    margin-top: 54px;
+}
+.quality .para h2{
+    font-size: 33px;
+}
+.quality .para p{
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.589);
+}
+.quality .para a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    background: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 28px;
+    display: inline-block;
+    transition: .5s;
+}
+.quality .para a:hover{
+    background: #32CD32;
+
+}
+
+.gallery{}
+.gallery .img-box{
+    padding: 70px 0;
+    border: 10px solid transparent;
+
+}
+.gallery .img-box img{
+   
+ 
+}
+.gallery .img-box a{
+    text-decoration: none;
+     color: white;
+}
+.gallery #box1{
+    background-image: url(img/box1.jpg);
+    background-position: 50% 50%;
+}
+.gallery #box2{
+    background-image: url(img/box2.jpg);
+    background-position: 50% 50%;
+}
+.gallery #box3{
+    background-image: url(img/box3.jpg);
+    background-position: 50% 50%;
+
+}
+.gallery .img-box:hover {
+    background-size: 220%;
+    border: 10px solid rgba(255,255,255,0.3);
+    line-height: 160px;
+   
+}
+
+.check{}
+.check span{
+    color: yellowgreen;
+    font-size: 30px;
+    display: inline-block;
+    transform: rotate(35deg);
+}
+.check h2{}
+.check p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.644);
+}
+.check a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background: yellowgreen;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 28px;
+    display: inline-block;
+    transition: .5s;
+}
+.check a:hover{
+    background: #32CD32;
+}
+
+.contuct{
+    background:yellowgreen;
+}
+.contuct h2 {
+    font-size: 35px;
+}
+.contuct span {
+    font-size: 32px;
+}
+.contuct p {
+    font-size: 22px;
+}
+
